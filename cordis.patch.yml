@@ -1,0 +1,6 @@
+# dsh-remote-editor bundle patch: one loader row activating the host half
+# (the login-fenced /plugins/remote-editor/api/info route). The browser half
+# is picked up by the client-modules scan through package.json dsh.client.
+- insert:
+    - id: remote-editor
+      name: 'dsh-remote-editor'
